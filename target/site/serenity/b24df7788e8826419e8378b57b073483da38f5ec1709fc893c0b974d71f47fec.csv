@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"To check Pending Confirmation list in OPS","When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops","SUCCESS","2019-01-02T12:15:51.488+05:00","0.0","2.15"

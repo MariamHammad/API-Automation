@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="To check Pending Confirmation list in OPS" skipped="0" tests="1" time="2.15" timestamp="2019-01-02 12:15:51"><testcase name="When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops"/></testsuite>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apiautomation.cucumber.APIrunner" time="8.605" tests="61" errors="0" skipped="4" failures="4">
+  <properties>
+    <property name="idea.version" value="2017.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENTUR~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Apache\maven\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Users\Venturedive\Downloads\apache-jmeter-4.0\apache-jmeter-4.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Apache\maven\apache-maven-3.3.9\bin;C:\Users\Venturedive\AppData\Local\Microsoft\WindowsApps;C:\Users\Venturedive\AppData\Roaming\npm;C:\Users\Venturedive\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Venturedive"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Mariam"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Header parameters are given for Accept Change Request of Booking" classname="Scenario: To accept a change request of booking from Ops portal" time="0.002"/>
+  <testcase name="When Admin post a request for Accept Change Request of booking" classname="Scenario: To accept a change request of booking from Ops portal" time="0"/>
+  <testcase name="Then change request gets accpeted and should return status 200" classname="Scenario: To accept a change request of booking from Ops portal" time="0"/>
+  <testcase name="Scenario: To accept a change request of booking from Ops portal" classname="Scenario: To accept a change request of booking from Ops portal" time="4.427"/>
+  <testcase name="Given Header parameters are given for Allocated Partner of Booking" classname="Scenario: To verify allocated partner to the newly created booking from Ops portal" time="0"/>
+  <testcase name="When Admin post a request for Allocated Partnerof booking" classname="Scenario: To verify allocated partner to the newly created booking from Ops portal" time="0"/>
+  <testcase name="Then Allocated Partner request and should return status 200" classname="Scenario: To verify allocated partner to the newly created booking from Ops portal" time="0"/>
+  <testcase name="Scenario: To verify allocated partner to the newly created booking from Ops portal" classname="Scenario: To verify allocated partner to the newly created booking from Ops portal" time="0.158"/>
+  <testcase name="Given Header parameters are given for Accept Reject Booking" classname="Scenario: To accept or reject a booking from Ops portal" time="0"/>
+  <testcase name="When Admin post a request for Accept Reject booking" classname="Scenario: To accept or reject a booking from Ops portal" time="0"/>
+  <testcase name="Then Booking gets accept reject and should return status 200" classname="Scenario: To accept or reject a booking from Ops portal" time="0.029">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.apiautomation.cucumber.steps.newbookingengine.BookingAcceptReject.bookingconfirmation(BookingAcceptReject.java:58)
+	at ✽.Then Booking gets accept reject and should return status 200(BookingAcceptReject.feature:9)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: To accept or reject a booking from Ops portal" classname="Scenario: To accept or reject a booking from Ops portal" time="0.032">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.apiautomation.cucumber.steps.newbookingengine.BookingAcceptReject.bookingconfirmation(BookingAcceptReject.java:58)
+	at ✽.Then Booking gets accept reject and should return status 200(BookingAcceptReject.feature:9)
+]]></failure>
+  </testcase>
+  <testcase name="Given Header parameters are given for Create Booking Change Request api" classname="Scenario: To create light weight booking change request" time="0.001"/>
+  <testcase name="When Admin post a request for create booking change request" classname="Scenario: To create light weight booking change request" time="0"/>
+  <testcase name="Then Create booking change request should be success with status code 200" classname="Scenario: To create light weight booking change request" time="0"/>
+  <testcase name="Scenario: To create light weight booking change request" classname="Scenario: To create light weight booking change request" time="0.149"/>
+  <testcase name="Given Header parameters are given for Get Change Request list api" classname="Scenario: When Change request has been created then it should appear in Chanage Request grid in Ops" time="0"/>
+  <testcase name="When Admin post parameters of Change Request list" classname="Scenario: When Change request has been created then it should appear in Chanage Request grid in Ops" time="0"/>
+  <testcase name="Then Get Change Request list request should be success with status code 200" classname="Scenario: When Change request has been created then it should appear in Chanage Request grid in Ops" time="0"/>
+  <testcase name="Scenario: When Change request has been created then it should appear in Chanage Request grid in Ops" classname="Scenario: When Change request has been created then it should appear in Chanage Request grid in Ops" time="0.195"/>
+  <testcase name="Given Header parameters are given for Create Booking api" classname="Scenario: To create light weight booking from ops" time="0"/>
+  <testcase name="When Admin post a request for create booking" classname="Scenario: To create light weight booking from ops" time="0"/>
+  <testcase name="Then Create booking request request should be success with status code 200" classname="Scenario: To create light weight booking from ops" time="0"/>
+  <testcase name="Scenario: To create light weight booking from ops" classname="Scenario: To create light weight booking from ops" time="0.24"/>
+  <testcase name="Given Header parameters are given for Customer Registration api call" classname="Scenario: To register a customer in Ops Portal" time="0"/>
+  <testcase name="When Admin post a request of Customer Registration" classname="Scenario: To register a customer in Ops Portal" time="0"/>
+  <testcase name="Then Customer Registration request should be success with status code 200" classname="Scenario: To register a customer in Ops Portal" time="0"/>
+  <testcase name="Scenario: To register a customer in Ops Portal" classname="Scenario: To register a customer in Ops Portal" time="0.305"/>
+  <testcase name="Given Header parameters are given for Get Accepted Booking List api" classname="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" time="0">
+    <skipped/>
+    <system-err><![CDATA[38727 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: To check the functionality Get Accepted Booking List
+38728 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: When Booking gets confirm, we need to check booking accepted booking list in Ops
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="When Admin post parameters for Get Accepted Booking List" classname="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" time="0">
+    <skipped/>
+    <system-err><![CDATA[38731 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Then Get Accepted Booking List request should be success with status code 200" classname="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" classname="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" time="0">
+    <skipped/>
+    <system-err><![CDATA[38732 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: When Booking gets confirm, we need to check booking accepted booking list in Ops
+---------------------------------------------------------------------------------
+38734 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To accept a change request of booking from Ops portal to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\d91b5984cf63dda5abc075875b4b0ed22a27e8ba95f40f3573c19f29ef8effad.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\d91b5984cf63dda5abc075875b4b0ed22a27e8ba95f40f3573c19f29ef8effad.json2fd4e36a-96a1-4d33-a65d-881594166eca)
+38735 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To verify allocated partner to the newly created booking from Ops portal to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\2249655e952aeaa64d7e585a87d5d605f2be82ca3503b1d30897854896afdb58.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\2249655e952aeaa64d7e585a87d5d605f2be82ca3503b1d30897854896afdb58.json43661f74-9167-4e62-8067-2258bdd8dd13)
+38736 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To accept or reject a booking from Ops portal to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\9efce23f1a2ee09ba5c29673fb9b9f0f23c31d2e720432e5436872ebedee730c.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\9efce23f1a2ee09ba5c29673fb9b9f0f23c31d2e720432e5436872ebedee730c.json79128a32-f045-43de-8a95-b2d3cb1b2f84)
+38736 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To create light weight booking change request to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\ccc71a9fe919177af70eaa9a20cc5787576ce4fb028fd784a5d38780b2a4ee18.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\ccc71a9fe919177af70eaa9a20cc5787576ce4fb028fd784a5d38780b2a4ee18.json495119c4-8554-4773-8abd-00265ec3224b)
+38746 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for When Change request has been created then it should appear in Chanage Request grid in Ops to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\25115943a09d70b52e1a34ff96073176c13de82ffc47d14a65f62627d0336f2f.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\25115943a09d70b52e1a34ff96073176c13de82ffc47d14a65f62627d0336f2f.json8012ff4c-0e60-4dd1-a7e7-10cc09330cbe)
+38793 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To create light weight booking from ops to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\4283b77e4d7cd3a35416a270f2dc637d6b61d0cae26234a256f159f0daeccc63.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\4283b77e4d7cd3a35416a270f2dc637d6b61d0cae26234a256f159f0daeccc63.json57d9234a-de88-4126-9a49-56246b4bb223)
+38795 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for To register a customer in Ops Portal to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\3e9535ba7e6f7c656e19f2f3955029e21b957573a13452bec8b33507970b6b9f.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\3e9535ba7e6f7c656e19f2f3955029e21b957573a13452bec8b33507970b6b9f.json14fc1361-9a4d-497f-a094-ecea319ddff7)
+38799 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for When Booking gets confirm, we need to check booking accepted booking list in Ops to file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\cb55a182bff90dfcbec7d75ced19ad7e6ff06f3f7074bfd557cb00502a4f21ba.json (using temp file C:\Users\Venturedive\Desktop\APIAutomationServiceMarket\ServiceMarketAPIAutomation\target\site\serenity\cb55a182bff90dfcbec7d75ced19ad7e6ff06f3f7074bfd557cb00502a4f21ba.jsond5bb05c9-e3bd-48cc-9528-3a25b0709a27)
+38890 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check Accept Change Request functionality:To accept a change request of booking from Ops portal in d91b5984cf63dda5abc075875b4b0ed22a27e8ba95f40f3573c19f29ef8effad.html in directory target\site\serenity  
+38913 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check Booking Accept and Reject functionality:To accept or reject a booking from Ops portal in 9efce23f1a2ee09ba5c29673fb9b9f0f23c31d2e720432e5436872ebedee730c.html in directory target\site\serenity  
+38927 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check Allocated Partner functionality:To verify allocated partner to the newly created booking from Ops portal in 2249655e952aeaa64d7e585a87d5d605f2be82ca3503b1d30897854896afdb58.html in directory target\site\serenity  
+38930 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check the functionality of Create Booking:To create light weight booking from ops in 4283b77e4d7cd3a35416a270f2dc637d6b61d0cae26234a256f159f0daeccc63.html in directory target\site\serenity  
+38931 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check the functionality Change Request list:When Change request has been created then it should appear in Chanage Request grid in Ops in 25115943a09d70b52e1a34ff96073176c13de82ffc47d14a65f62627d0336f2f.html in directory target\site\serenity  
+38933 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check the functionality of Create Booking Change Request:To create light weight booking change request in ccc71a9fe919177af70eaa9a20cc5787576ce4fb028fd784a5d38780b2a4ee18.html in directory target\site\serenity  
+38955 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To validate the functionality of Customer Registration in Ops Portal:To register a customer in Ops Portal in 3e9535ba7e6f7c656e19f2f3955029e21b957573a13452bec8b33507970b6b9f.html in directory target\site\serenity  
+38960 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR To check the functionality Get Accepted Booking List:When Booking gets confirm, we need to check booking accepted booking list in Ops in cb55a182bff90dfcbec7d75ced19ad7e6ff06f3f7074bfd557cb00502a4f21ba.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" classname="Scenario: When Booking gets confirm, we need to check booking accepted booking list in Ops" time="0.349"/>
+  <testcase name="Given Header parameters are given for Get Booking details api" classname="Scenario: When Booking gets confirm, we need to check booking details in Ops" time="0"/>
+  <testcase name="When Admin post parameters of booking to get its details" classname="Scenario: When Booking gets confirm, we need to check booking details in Ops" time="0"/>
+  <testcase name="Then Get Booking details request should be success with status code 200" classname="Scenario: When Booking gets confirm, we need to check booking details in Ops" time="0"/>
+  <testcase name="Scenario: When Booking gets confirm, we need to check booking details in Ops" classname="Scenario: When Booking gets confirm, we need to check booking details in Ops" time="0.397"/>
+  <testcase name="Given Header parameters are given for Get Partner Cancel Booking list api" classname="Scenario: To get the partner cancel booking list" time="0"/>
+  <testcase name="When Admin post parameters to get Cancel booking list of partner" classname="Scenario: To get the partner cancel booking list" time="0"/>
+  <testcase name="Then Get Cancel Booking List request should be success with status code 200" classname="Scenario: To get the partner cancel booking list" time="0.001"/>
+  <testcase name="Scenario: To get the partner cancel booking list" classname="Scenario: To get the partner cancel booking list" time="0.501"/>
+  <testcase name="Given Header parameters are given for Get Partner New Booking list api" classname="Scenario: To get the partner new booking list" time="0"/>
+  <testcase name="When Admin post parameters to get new booking list of partner" classname="Scenario: To get the partner new booking list" time="0"/>
+  <testcase name="Then Get New Booking List request should be success with status code 200" classname="Scenario: To get the partner new booking list" time="0"/>
+  <testcase name="Scenario: To get the partner new booking list" classname="Scenario: To get the partner new booking list" time="0.797"/>
+  <testcase name="Given Header parameters are given for Get Planned Jobs api" classname="Scenario: When Booking gets confirm, we need to check accepted booking planned events in planned jobs in Ops" time="0"/>
+  <testcase name="When Admin post parameters for Get Planned Jobs List" classname="Scenario: When Booking gets confirm, we need to check accepted booking planned events in planned jobs in Ops" time="0"/>
+  <testcase name="Then Get Planned Jobs request should be success with status code 200" classname="Scenario: When Booking gets confirm, we need to check accepted booking planned events in planned jobs in Ops" time="0"/>
+  <testcase name="Scenario: When Booking gets confirm, we need to check accepted booking planned events in planned jobs in Ops" classname="Scenario: When Booking gets confirm, we need to check accepted booking planned events in planned jobs in Ops" time="0.463"/>
+  <testcase name="Given Header parameters are given for Get Pending Confirmation Event list api" classname="Scenario: When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops" time="0"/>
+  <testcase name="When Admin post parameters for Get Pending Confirmation Event list" classname="Scenario: When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops" time="0"/>
+  <testcase name="Then Get Pending Confirmation Event list request should be success with status code 200" classname="Scenario: When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops" time="0"/>
+  <testcase name="Scenario: When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops" classname="Scenario: When Booking gets confirm, and event date passes then that particular event should be in Pending Confimation grid in Ops" time="0.443"/>
+  <testcase name="Given Header parameters are given for Reject Change Request of Booking" classname="Scenario: To reject a change request of booking from Ops portal" time="0.001"/>
+  <testcase name="When Admin post a request for Reject Change Request of booking" classname="Scenario: To reject a change request of booking from Ops portal" time="0"/>
+  <testcase name="Then change request gets rejected and should return status 200" classname="Scenario: To reject a change request of booking from Ops portal" time="0"/>
+  <testcase name="Scenario: To reject a change request of booking from Ops portal" classname="Scenario: To reject a change request of booking from Ops portal" time="0.453"/>
+  <testcase name="Given Header parameters are given for Update booking event status" classname="Scenario: To update booking event status from Ops Portal" time="0"/>
+  <testcase name="When Admin post a request for Update booking event status" classname="Scenario: To update booking event status from Ops Portal" time="0"/>
+  <testcase name="Then Update booking event status and should return status 200" classname="Scenario: To update booking event status from Ops Portal" time="0.005">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.apiautomation.cucumber.steps.newbookingengine.UpdateBookingEventStatus.eventstatusupdated(UpdateBookingEventStatus.java:57)
+	at ✽.Then Update booking event status and should return status 200(UpdateBookingEventStatus.feature:9)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: To update booking event status from Ops Portal" classname="Scenario: To update booking event status from Ops Portal" time="0.006">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.apiautomation.cucumber.steps.newbookingengine.UpdateBookingEventStatus.eventstatusupdated(UpdateBookingEventStatus.java:57)
+	at ✽.Then Update booking event status and should return status 200(UpdateBookingEventStatus.feature:9)
+]]></failure>
+  </testcase>
+</testsuite>

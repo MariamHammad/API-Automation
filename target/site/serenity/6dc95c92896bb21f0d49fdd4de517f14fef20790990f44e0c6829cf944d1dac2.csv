@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"To check the functionality Change Request list","When Change request has been created then it should appear in Chanage Request grid in Ops","SUCCESS","2019-01-02T12:15:32.009+05:00","0.0","2.5"

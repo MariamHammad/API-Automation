@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="To check update booking event status functionality" skipped="0" tests="1" time="2.11" timestamp="2019-01-02 12:15:56"><testcase name="To update booking event status from Ops Portal"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.apiautomation.cucumber.steps.newbookingengine.UpdateBookingEventStatus.eventstatusupdated(UpdateBookingEventStatus.java:57)&#13;
+✽.Then Update booking event status and should return status 200(UpdateBookingEventStatus.feature:9)&#13;
+</system-err></testcase></testsuite>

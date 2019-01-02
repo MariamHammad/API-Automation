@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="To check the functionality Get Booking details" skipped="0" tests="1" time="2.36" timestamp="2019-01-02 12:15:40"><testcase name="When Booking gets confirm, we need to check booking details in Ops"/></testsuite>
